@@ -1,4 +1,4 @@
-# WORD-COUNT:
+# WORD-COUNT 
 
 ## AIM:
 
@@ -39,6 +39,9 @@ End the program.
 
 ## PROGRAM :
 ```python
+Developed by: MIDHUN AZHAHU RAJA P
+RegisterNumber: 22008311
+
 fname = input("Enter file name: ")
 num_words = 0
 with open(fname, 'r') as f:
