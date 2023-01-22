@@ -38,7 +38,7 @@ End the program.
 
 
 ## PROGRAM :
-
+```python
 fname = input("Enter file name: ")
 num_words = 0
 with open(fname, 'r') as f:
@@ -46,7 +46,7 @@ with open(fname, 'r') as f:
         words = line.split()
         num_words += len(words)
 print("Number of words: ", num_words)
-
+```
 ### OUTPUT :
 
 ![output](https://user-images.githubusercontent.com/118054670/213933639-2f98f2be-0c6a-465d-b052-8ea73e10dc45.png)
